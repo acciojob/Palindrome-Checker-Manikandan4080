@@ -1,6 +1,7 @@
 // complete the given function
 
 function palindrome(str){
+	str=str.toLowerCase();
 	let word = str.trim();
 	let arr = word.split(" ");
 	let w = arr.join("");
